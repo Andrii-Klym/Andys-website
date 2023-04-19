@@ -200,8 +200,16 @@ section.about .social a img {
 .section-heading+p {
     color: var(--ternary);
     font-family: 'Lato', sans-serif;
-    margin-bottom: 8rem;
+    margin-bottom: 4rem;
     text-align: center;
+}
+
+.weight {
+    text-align: center;
+    margin-bottom: 4rem;
+    color: black;
+    font-size: x-large;
+    font-weight: 900; 
 }
 
 section.services {
@@ -676,7 +684,6 @@ footer .copyright {
     }
 
     .hero .right {
-
         padding: 0 1rem;
         background: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.9));
     }
