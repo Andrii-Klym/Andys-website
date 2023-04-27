@@ -59,6 +59,10 @@ header {
     }
 }
 
+span {
+    color: var(--primary);
+}
+
 header nav .left a {
     color: var(--pure);
     text-decoration: none;
@@ -274,6 +278,10 @@ section.services .card-wrapper .card:hover p {
     color: var(--pure);
 }
 
+#programs li {
+    padding: 20px 0px;
+}
+
 section.freelancer {
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/svg/camera.png);
@@ -368,7 +376,6 @@ section.work .card-wrapper {
 section.work .card-wrapper .card {
     position: relative;
     height: 250px;
-
 }
 
 section.work .card-wrapper .card .overlay {
@@ -524,6 +531,10 @@ section.contact .input-wrap-2 textarea {
 section.contact .input-wrap-2 textarea:focus,
 section.contact input:focus {
     outline: none;
+}
+
+.contact {
+    text-align: center;
 }
 
 section.contact .btn-wrapper {
@@ -745,3 +756,4 @@ footer .copyright {
         grid-template-columns: repeat(1, 1fr);
     }
 }
+
