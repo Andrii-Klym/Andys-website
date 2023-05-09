@@ -476,7 +476,7 @@ section.blog .card-wrapper .card .card-content a.read-more {
 
 section.contact .card-wrapper {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 3rem;
 }
 
