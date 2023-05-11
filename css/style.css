@@ -201,7 +201,7 @@ section.about .social a img {
     color: var(--primary);
 }
 
-.section-heading+p {
+.section-heading+p, .section-heading+h2 {
     color: var(--ternary);
     font-family: 'Lato', sans-serif;
     margin-bottom: 4rem;
