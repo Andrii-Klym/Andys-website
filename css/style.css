@@ -282,6 +282,12 @@ section.services .card-wrapper .card:hover p {
     padding: 20px 0px;
 }
 
+#programs p {
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 900;
+}
+
 section.freelancer {
     text-align: center;
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/svg/camera.png);
