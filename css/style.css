@@ -364,6 +364,10 @@ section.reviews .slider-dots button {
     cursor: pointer;
 }
 
+.slider-dots p {
+    text-align: center;
+}
+
 section.reviews .dots li.slick-active button {
     background: var(--primary);
     width: 20px;
@@ -646,6 +650,36 @@ footer .copyright {
     font-size: 2rem;
 }
 
+.community {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.community-title {
+    text-align: center;
+    width: 100%;
+}
+
+.community-description {
+    display: flex;
+}
+
+.community-description .card {
+    width: 50%;
+}
+
+.second {
+    margin-left: 50px;
+}
+
+.card-footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 39px;
+    margin-bottom: -50px;
+}
+
 @media (max-width:1024px) {
     header #main-nav {
         display: none;
@@ -761,6 +795,16 @@ footer .copyright {
 
     section.contact .input-wrap {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .community-description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .second {
+        margin: 0;
     }
 }
 
