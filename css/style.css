@@ -662,6 +662,9 @@ footer .copyright {
 
 .community-description {
     display: flex;
+    justify-content: center; /* remove when add new card*/
+    width: 100%;
+    text-align: center;
 }
 
 .community-description .card {
@@ -669,7 +672,7 @@ footer .copyright {
 }
 
 .second {
-    margin-left: 50px;
+    /* margin-left: 50px; */ 
 }
 
 .card-footer{
